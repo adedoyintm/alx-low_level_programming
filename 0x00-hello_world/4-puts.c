@@ -1,8 +1,10 @@
-#!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
-
-"Programming is like building a multilingual puzzle
-
-julien@ubuntu:~/c/0x00$ echo $?
-
-0
+#include <stdio.h>
+/**
+ * main - entry point
+ * Return: 0
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
