@@ -1,38 +1,32 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success/completed
+ * main -> assign a random number to the variable n each time it is executed
+ * and print the last digit of the number stored in the variable n
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x, y;
-
-	for (x = 48; x <= 57; x++)
+	int ch;
+	int n;
+	for (ch = 48; ch <= 57; ch++)
 	{
-		for (y = 48; y <= 57; y++)
+		for (n = 49; n <= 57; n++)
 		{
-			if (x == y || y <= x)
+			if (n > ch)
 			{
-			}
-			else
-			{
-				putchar(x);
-				putchar(y);
-				if (x == 56 && y == 57)
-				{
-				}
-				else
+				putchar(ch);
+				putchar(n);
+				if (ch != 56 || n != 57)
 				{
 					putchar(44);
-					putchar(' ');
+					putchar(32);
 				}
 			}
 		}
 	}
-	putchar('\n');
+
+	putchar(10); /* this is an ascii code for new line*/
+
 	return (0);
-}
-
-
 }
