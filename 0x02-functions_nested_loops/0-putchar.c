@@ -4,6 +4,8 @@
 /**
  * main - Entry point
  *
+ * Description: prints _putchar
+ *
  * Return: nothing, return void
  */
 
