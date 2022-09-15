@@ -2,22 +2,35 @@
 
 
 /**
- * main - Entry point
+ * main - Entry point 
  *
- * Return: nothing, return void
+ * Return: nothing, return void 
  */
 
 int main(void)
+
 {
-	char school[10] = "_putchar";
 
-	int i;
+	_putchar('_');
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(school[i]);
-	}
-	_putchar(10);
+	_putchar('p');
+
+	_putchar('u');
+
+	_putchar('t');
+
+	_putchar('c');
+
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
+
+	_putchar('\n');
+
+
 
 	return (0);
+
 }
