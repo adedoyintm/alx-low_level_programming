@@ -7,8 +7,10 @@
  * @s: string to be evaluated
  * Return: 0 if a non-digit is found, 1 otherwise
  */
+
 int is_digit(char *s)
 {
+
 	int i = 0;
 
 	while (s[i])
@@ -25,8 +27,10 @@ int is_digit(char *s)
  * @s: string to evaluate
  * Return: the length of the string
  */
+
 int _strlen(char *s)
 {
+
 	int i = 0;
 
 	while (s[i] != '\0')
@@ -52,8 +56,10 @@ void errors(void)
  * @argv: array of arguments
  * Return: always 0 (Success)
  */
+
 int main(int argc, char *argv[])
 {
+
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
